@@ -1,5 +1,16 @@
 {
-  "name": "root",
+  "name": "bisvlo-ui-vue",
+  "version": "1.0.0",
+  "description": "Vue components library",
+  "repository": "https://github.com/bonabrian/bisvlo-ui",
+  "author": {
+    "name": "Bona Brian Siagian",
+    "email": "bonabriansiagian@gmail.com"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
   "private": true,
   "devDependencies": {
     "lerna": "^4.0.0",
